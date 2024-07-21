@@ -1,0 +1,429 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Header styles */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 25px;
+    color: cornflowerblue;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu_list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_list {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.nav-button .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.nav-button .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.nav-menu-btn {
+    display: none;
+}
+
+/* Main styles */
+.wrapper {
+    padding: 40px 0;
+}
+
+.featured-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.featured-text {
+    width: 50%;
+}
+
+.featured-text-info p {
+    color: #666; /* Medium gray text */
+}
+
+.featured-text-btn .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.featured-text-btn .btn.blue-btn {
+    background-color: #0056b3;
+}
+
+.featured-text-btn .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.social_icons {
+    margin-top: 20px;
+}
+
+.social_icons .icon {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666; /* Medium gray icons */
+}
+
+.featured-image {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    margin: 20px; /* Adds some space around the container */
+}
+
+.featured-image .image {
+    max-width: 100%; /* Ensures the image container doesn't exceed the width of its parent */
+    border-radius: 70%; /* Makes the image container circular */
+    overflow: hidden; /* Ensures the image stays within the circular container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for a nice effect */
+}
+
+.featured-image .image img {
+    width: 70%; /* Makes the image fill the container */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Removes the bottom margin from the image */
+}
+
+/* About section styles */
+.section {
+    margin: 5px;
+    padding: 80px;
+    background-color: #fffdfd; /* Lighter gray background */
+}
+
+.top-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.top-header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Skills boxes */
+.skills-box {
+    margin-bottom: 20px;
+}
+
+.skills-header h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills-list span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0; /* Light gray background for skills */
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Projects section styles */
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-box i {
+    font-size: 36px;
+    color: #007bff; /* Blue icon color */
+}
+
+.project-box h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: #666; /* Medium gray text */
+}
+
+.form-control {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.input-field,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.form-button .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-button .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footer_menu_list {
+    margin-right: 20px;
+}
+
+.footer_menu_list a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.footer_menu_list a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-social-icons .icon {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff; /* White icons */
+}
+
+.bottom-footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff; /* White background */
+        z-index: 1000;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 80px;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .nav-menu.active {
+        transform: translateX(0);
+    }
+
+    .nav_list {
+        margin-bottom: 20px;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-menu-btn {
+        display: block;
+        cursor: pointer;
+        font-size: 28px;
+    }
+
+    .featured-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social_icons .icon {
+        margin-bottom: 10px;
+    }
+
+    .featured-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-list {
+        text-align: center;
+    }
+
+    .footer-social-icons {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-menu-btn {
+        font-size: 24px;
+    }
+
+    .featured-box {
+        padding: 20px;
+    }
+
+    .skills-header h3 {
+        font-size: 20px;
+    }
+
+    .project-box h3 {
+        font-size: 20px;
+    }
+
+    .contact-info h2 {
+        font-size: 30px;
+    }
+
+    .top-header h1 {
+        font-size: 30px;
+    }
+
+    .featured-text-btn .btn {
+        padding: 8px 16px;
+    }
+
+}
+/* Add styles for the Education section */
+#education .education-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#education .education-box h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#education .education-box p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #666;
+}
